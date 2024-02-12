@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Capstone</title>
+    <link rel="stylesheet" href="csss/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="background-video">
+        <video autoplay muted loop style="object-fit: cover; width: 100%; height: 100%;">
+            <source src="https://packaged-media.redd.it/lpb2um45asv41/pb/m2-res_1080p.mp4?m=DASHPlaylist.mpd&v=1&e=1707336000&s=efb9f19d0d1d86c77c1e1be096caf274b1b7456e#t=0" type="video/mp4">
+            iror
+        </video>
+    </div>
+    <div class="wrapper">
+        <form id="loginForm" method="post" action="/login">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" id="loginUsername" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <!-- Add onclick attribute to associate the button with the login() function -->
+            <button type="button" class="btn" onclick="login()">Log in</button>
+
+            <div class="register-link">
+                <p>Don't have an account?
+                    <a href="register.html">Register here!</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Include your login.js file -->
+    <script src="jvscript/login.js"></script>
+
+</body>
+
+</html>
