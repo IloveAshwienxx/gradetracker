@@ -1,0 +1,7 @@
+{
+    "name": "gr7/capstone-project",
+    "require": {
+        "php": "^8.2.4",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

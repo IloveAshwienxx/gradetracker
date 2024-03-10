@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;   
+}
+
+video{
+    width: 100%;
+    height: 100vh; /* Adjust this value as needed for the desired height */
+    object-fit: cover;
+    position: fixed;
+    z-index: -1; /* Place the video behind the content */
+    top: 0;
+}
+
+body{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: skyblue;
+}
+
+.forgotwrapper {
+    width: 475px;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px 30px;
+}
+
+.forgotwrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.forgotwrapper input{
+    width: 60%;
+    height: 20%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding: 5px 7px 5px 7px;
+}
+
+.forgotwrapper button{
+    width: 30%;
+    margin: 25px 0% 10px 35%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: background-colorr 0.5s ease-in-out;
+}
+
+.forgotwrapper button:hover{
+    background-color: skyblue;
+    transition: background-color 0.5s ease-in-out;
+}
